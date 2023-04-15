@@ -8,6 +8,8 @@ local module = ShaguTweaks:register({
   enabled = nil,
 })
 
+Minimap:SetMaskTexture("Textures\\MinimapMask")
+
 module.enable = function(self)
   MinimapBorder:SetTexture(nil)
   Minimap:SetPoint("CENTER", MinimapCluster, "TOP", 9, -98)
