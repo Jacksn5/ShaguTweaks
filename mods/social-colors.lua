@@ -27,14 +27,21 @@ module.enable = function(self)
             for name in gfind(text, "|Hplayer:(.-)|h") do
               local real, _ = strsplit(":", name)
               local color = "|cffaaaaaa"
-              local class = GetUnitData(real)
+              level = nil
+              local class,level = GetUnitData(real)
 
               if class and class ~= UNKNOWN then
                 color = rgbhex(RAID_CLASS_COLORS[class])
               end
+              if level ~= nil then
+              local level_color = rgbhex(GetDifficultyColor(level))
+              level = level_color..level.."|r:"
+              else
+              level = ""
+              end              
 
               text = string.gsub(text, "|Hplayer:"..name.."|h%["..real.."%]|h(.-:-)",
-                "|r["..color.."|Hplayer:"..name.."|h" .. color .. real .. "|h|r".."]|r".."%1")
+                "|r["..level..color.."|Hplayer:"..name.."|h" .. color .. real .. "|h|r".."]|r".."%1")
             end
           end
 
