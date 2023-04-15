@@ -3,7 +3,7 @@
 ## Author: Shagu
 ## Notes: A collection of tweaks and enhancements to the Default UI
 ## Version: GIT
-## SavedVariablesPerCharacter: ShaguTweaks_config, ShaguTweaks_cache
+## SavedVariables: ShaguTweaks_config, ShaguTweaks_cache
 
 # locales
 locales\locales_deDE.lua
@@ -30,6 +30,47 @@ libs\libnameplate.lua
 
 # custom
 mods\custom.lua
+
+# ShaguTweaks-Mods
+mods\accept-invites.lua
+mods\actionbar-hide-hotkey.lua
+mods\actionbar-hide-macro.lua
+mods\actionbar-improved-expbar.lua
+mods\actionbar-macros.lua
+mods\actionbar-mouseover-bar-bottomleft.lua
+mods\actionbar-mouseover-bar-bottomright.lua
+mods\actionbar-mouseover-bar-right.lua
+mods\actionbar-mouseover-bar-right2.lua
+mods\actionbar-quick-actions.lua
+mods\actionbar-range-color.lua
+mods\basic-chat.lua
+mods\camera.lua
+mods\central-windows.lua
+mods\chat-tweaks-extended.lua
+mods\cursor-tooltip.lua
+mods\health-numbers-extended.lua
+mods\hide-combat-tooltip.lua
+mods\hide-unit-frames.lua
+mods\hide-world-chat.lua
+mods\improved-advanced-options.lua
+mods\improved-castbar.lua
+mods\improved-interface-options.lua
+mods\improved-roll-frames.lua
+mods\loot-monitor.lua
+mods\minimap-framerate-latency.lua
+mods\minimap-timer.lua
+mods\modifier-actions.lua
+mods\mouseover.lua
+mods\move-unitframes-extended.lua
+mods\pet-name-happiness.lua
+mods\restyle-ui.lua
+mods\skip-gossip.lua
+mods\smaller-errors-frame.lua
+mods\unitframes-combat-indicator.lua
+mods\unitframes-energy-tick.lua
+mods\unitframes-healthbar-color.lua
+mods\unitframes-whitemana.lua
+mods\worldmap-reveal.lua
 
 # modules
 mods\dark-ui-elements.lua
